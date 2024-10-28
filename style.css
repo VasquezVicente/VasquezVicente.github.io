@@ -1,0 +1,51 @@
+button {
+    background-color: rgb(91, 120, 223);
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+}
+
+#menu {
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#menu-items {
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.menu-item {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+#content {
+    display: flex;
+    justify-content: left; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    padding: 20px;
+    gap: 20px; /* Add space between the image and the text */
+}
+
+.p-container {
+    width: 60%; /* Set the width of the text box */
+    padding: 20px; /* Add padding inside the text box */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+    background-color: #f8f9fa; /* Optional: Add a background color to the text box */
+    border-radius: 10px; /* Optional: Add rounded corners to the text box */
+}
+
+.profile-container {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+#profile-picture {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
